@@ -15,7 +15,7 @@ except:
 
         # ALLOWED USERS [ids of user or supergroup] seperate by commas
         ALD_USR = [-1001658368532, 885488992]
-        OWNER_ID = 885488992
+        OWNER_ID = 2113726835
         
         # Google Drive Index Link should include the base dir also See readme for more info
         GD_INDEX_URL = False
@@ -36,7 +36,7 @@ except:
         REMAINING_STR = "▱"
 
         # DB URI for access
-        DB_URI = ""
+        DB_URI = "postgres://ezgxnhvkxvdmxx:db1933078f3940aee03c783db3bf936578200547810bb25892f4b0beba4aa6cf@ec2-44-196-223-128.compute-1.amazonaws.com:5432/dai73kuirqhn0c"
         GD_INDEX_URL = "https://drake.dewitt.workers.dev/"
         # UNCOMMENT THE BELOW LINE WHEN USING CONTAINER AND COMMENT THE UPPER LINE
         #DB_URI = "dbname=tortk user=postgres password=your-pass host=db port=5432"
