@@ -14,7 +14,7 @@ except:
         SERVPORT = 80
 
         # ALLOWED USERS [ids of user or supergroup] seperate by commas
-        ALD_USR = [-1001658368532, 885488992]
+        ALD_USR = [-1001658368532, 885488992, 2113726835]
         OWNER_ID = 2113726835
         
         # Google Drive Index Link should include the base dir also See readme for more info
@@ -27,7 +27,7 @@ except:
         TG_UP_LIMIT = 2097152000
 
         # Should force evething uploaded into Document
-        FORCE_DOCUMENTS = False
+        FORCE_DOCUMENTS = True
 
         # Chracter to use as a completed progress 
         COMPLETED_STR = "▰"
