@@ -611,7 +611,7 @@ async def upload_single_file(path, message, force_edit, database=None, thumb_ima
                 for path, thumb in zip(paths, thumb_paths):
                     torlog.info(len(os.path.basename(path)))
                     if "@KaipullaVadiveluOffl" in os.path.basename(path):
-                        caption_str = "<b>@KaipullaVadiveluOffl "+file_name+"</b>\n\n<b>➠Cʜᴀɴɴᴇʟ : @KaipullaVadiveluOffl</b>"
+                        caption_str = "<b>@KaipullaVadiveluOffl "+file_name+"</b>"
                     else:
                         caption_str = "<b>"+file_name+"</b>"
                     if ".txt" not in os.path.basename(path) and ".nfo" not in os.path.basename(path) and ".exe" not in os.path.basename(path) and ".jpeg" not in os.path.basename(path) and ".png" not in os.path.basename(path) and ".srt" not in os.path.basename(path) and ".sfv" not in os.path.basename(path) and ".sub" not in os.path.basename(path) and ".idx" not in os.path.basename(path) and ".jpg" not in os.path.basename(path):
@@ -721,7 +721,7 @@ async def upload_single_file(path, message, force_edit, database=None, thumb_ima
                 for path, thumb in zip(paths, thumb_paths):
                     torlog.info(len(os.path.basename(path)))
                     if "@KaipullaVadiveluOffl" in os.path.basename(path):
-                        caption_str = "<b>@KaipullaVadiveluOffl "+file_name+"</b>\n\n<b>➠Cʜᴀɴɴᴇʟ : @KaipullaVadiveluOffl</b>"
+                        caption_str = "<b>@KaipullaVadiveluOffl "+file_name+"</b>"
                     else:
                         caption_str = "<b>"+file_name+"</b>"
                     if ".txt" not in os.path.basename(path) and ".nfo" not in os.path.basename(path) and ".exe" not in os.path.basename(path) and ".jpeg" not in os.path.basename(path) and ".png" not in os.path.basename(path) and ".srt" not in os.path.basename(path) and ".sfv" not in os.path.basename(path) and ".sub" not in os.path.basename(path) and ".idx" not in os.path.basename(path) and ".jpg" not in os.path.basename(path):
