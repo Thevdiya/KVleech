@@ -7,7 +7,7 @@ except:
         
         API_HASH = "0417d4f5fa67431b3c1b984a712cdbe3"
         API_ID = 12411512
-        BOT_TOKEN = "5144811319:AAFIgh0zByxG_KplnwMuLhjorqbFRSJdamY"
+        BOT_TOKEN = "5323173776:AAGVZer9dOxRtRd5gWjzAs3qfm46tee2uSg"
         BASE_URL_OF_BOT = "https://kaipullaleech.herokuapp.com"
 
         # Edit the server port if you want to keep it default though.
