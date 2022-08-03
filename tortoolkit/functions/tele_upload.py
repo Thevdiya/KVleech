@@ -610,8 +610,8 @@ async def upload_single_file(path, message, force_edit, database=None, thumb_ima
                 thumb_paths = await get_all_thumbpaths()
                 for path, thumb in zip(paths, thumb_paths):
                     torlog.info(len(os.path.basename(path)))
-                    if "@KaipullaVadiveluOffl" in os.path.basename(path):
-                        caption_str = "<b>@KaipullaVadiveluOffl "+file_name+"</b>"
+                    if "@Central_Links" in os.path.basename(path):
+                        caption_str = "<b>@Central_Links "+file_name+"</b>"
                     else:
                         caption_str = "<b>"+file_name+"</b>"
                     if ".txt" not in os.path.basename(path) and ".nfo" not in os.path.basename(path) and ".exe" not in os.path.basename(path) and ".jpeg" not in os.path.basename(path) and ".png" not in os.path.basename(path) and ".srt" not in os.path.basename(path) and ".sfv" not in os.path.basename(path) and ".sub" not in os.path.basename(path) and ".idx" not in os.path.basename(path) and ".jpg" not in os.path.basename(path):
@@ -720,8 +720,8 @@ async def upload_single_file(path, message, force_edit, database=None, thumb_ima
                 thumb_paths = await get_all_thumbpaths()
                 for path, thumb in zip(paths, thumb_paths):
                     torlog.info(len(os.path.basename(path)))
-                    if "@KaipullaVadiveluOffl" in os.path.basename(path):
-                        caption_str = "<b>@KaipullaVadiveluOffl "+file_name+"</b>"
+                    if "@Central_Links" in os.path.basename(path):
+                        caption_str = "<b>@Central_Links "+file_name+"</b>"
                     else:
                         caption_str = "<b>"+file_name+"</b>"
                     if ".txt" not in os.path.basename(path) and ".nfo" not in os.path.basename(path) and ".exe" not in os.path.basename(path) and ".jpeg" not in os.path.basename(path) and ".png" not in os.path.basename(path) and ".srt" not in os.path.basename(path) and ".sfv" not in os.path.basename(path) and ".sub" not in os.path.basename(path) and ".idx" not in os.path.basename(path) and ".jpg" not in os.path.basename(path):
@@ -783,7 +783,7 @@ async def copy_file_path(path):
     newdir = os.path.join(os.path.dirname(path), "Copy")
     if(not os.path.isdir(newdir)):
         os.mkdir(newdir)
-    prefixcaptions = ["/@KaipullaVadiveluOffl "]
+    prefixcaptions = ["/@Central_Links "]
     for prefixcaption in prefixcaptions:
         newfilename = prefixcaption
         newfilename += os.path.basename(path)
