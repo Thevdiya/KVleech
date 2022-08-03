@@ -7,14 +7,14 @@ except:
         
         API_HASH = "0417d4f5fa67431b3c1b984a712cdbe3"
         API_ID = 12411512
-        BOT_TOKEN = "5323173776:AAGVZer9dOxRtRd5gWjzAs3qfm46tee2uSg"
+        BOT_TOKEN = "5144811319:AAE8sRuSZ54-z3_dUo1g5pFwA_EYnH0NjNE"
         BASE_URL_OF_BOT = "https://kaipullaleech.herokuapp.com"
 
         # Edit the server port if you want to keep it default though.
         SERVPORT = 80
 
         # ALLOWED USERS [ids of user or supergroup] seperate by commas
-        ALD_USR = [-1001795365054, 885488992, 2113726835]
+        ALD_USR = [-1001795365054, 885488992, 2113726835, -1001658368532]
         OWNER_ID = 2113726835
         
         # Google Drive Index Link should include the base dir also See readme for more info
